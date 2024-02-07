@@ -1,0 +1,120 @@
+.professional-container{
+    width: 100vw;
+   
+    display: flex;
+    justify-content: center;
+    
+}
+
+.professional-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--green);
+    margin: 2rem;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    width:100%;
+    
+}
+
+.professional-title{
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.professional-experience_container{
+    /* border:1px solid red; */
+    width: 100%;
+}
+
+.professional-experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+    
+}
+
+.professional-experience_title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.professional-experience_title h3{
+    font-weight:100;
+}
+.professional-experience p {
+    font-style: italic;
+}
+
+
+.arrow-png{
+    width: 10px;
+    height: 10px;
+}
+
+.download-resume a{
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: black;
+    padding:15px 20px;
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-family: var(--font-family)
+}
+
+.download-resume a:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+
+@media screen and (max-width: 500px) {
+    .professional-experience{
+        flex-direction: column;
+        gap:10px;
+    }
+    .professional-experience_title{
+        align-items: center;
+    }
+    .professional-content{
+        padding:1.5rem;
+    }
+    .professional-title{
+        font-size:25px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .professional-experience_title h2{
+        font-size:5.5vw;
+    }
+    .professional-title{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        font-size: 7vw;
+        margin: 10px;
+    }
+    .professional-experience_title h3{
+        font-size: 4vw;
+    }
+    .professional-experience p{
+        font-size: 3.5vw;
+    }
+}

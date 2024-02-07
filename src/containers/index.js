@@ -1,0 +1,6 @@
+export {default as Personal} from './personal/Personal'
+export {default as Projects} from './projects/Projects'
+export {default as Professional} from './professional/Professional'
+export {default as Api} from './api/Api'
+export {default as Header } from './header/Header'
+export {default as Footer} from './footer/Footer'

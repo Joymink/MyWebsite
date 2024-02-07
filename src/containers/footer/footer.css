@@ -1,0 +1,54 @@
+.footer-container{
+    width:100vw;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socials-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px;
+    width:100%;
+    justify-content: space-around;
+    font-family: var(--font-family);
+    font-size: 15pt;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+
+}
+.social-icon{
+    width:27px;
+    margin:5px;
+    border-radius: 99px;
+}
+
+.instagram{
+      /* global 92%+ browsers support */
+      /* global 92%+ browsers support */
+      background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 1) 53%, rgba(0, 0, 0, 1) 58%);}
+.github{
+    width:25px
+}
+.linkedin{
+    width: 25px;
+}
+.linkedin-container{
+    cursor:auto;
+}
+
+.copy{
+    margin: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 300px){
+    .social p{
+        font-size: 12pt;
+    }
+}

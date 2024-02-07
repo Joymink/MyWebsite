@@ -1,0 +1,49 @@
+.apiCard-container{
+    /* border: 1px solid red; */
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apiCard-content{
+    background-color: rgb(255, 213, 220);
+    margin:1rem;
+    padding:1rem;
+    border-radius:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+    width:80%;
+    min-height:140px;
+}
+
+.api-activity{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.api-stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    gap:15px;
+}
+.api-stats-p{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.api-accessibility{
+    cursor:pointer;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .api-activity{
+        text-align: center;
+        font-size: 1rem;
+    }
+}

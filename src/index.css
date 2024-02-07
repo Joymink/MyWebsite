@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Pixel';
+  src: local('PixelifySans-Regular'),
+  url("../public/static/PixelifySans-Regular.ttf") format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+
+
+}
+.hidden{
+  display: none;
+}
+
+:root {
+  --font-family: 'Cambria';
+  --font: 'Pixel';
+  --blue: #5ebeff;
+  --yellow: #ffcc35;
+  --green: #72cdab;
+  --pink: #ffb1e0;
+  --gradient-text: linear-gradient(130deg,  #ffcc35 1%, #72cdab 40%, #5ebeff 70%,  #ffb1e0 100% );
+}
+
+.gradient__text{
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient__bg {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(145deg, rgba(94, 190, 255, 0.38) 9%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 58%, rgba(255, 204, 53, 0.58) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(145deg, rgba(94, 190, 255, 0.38) 9%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 58%, rgba(255, 204, 53, 0.58) 100%);
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(145deg, rgba(94, 190, 255, 0.38) 9%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 58%, rgba(255, 204, 53, 0.58) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFCC35', endColorstr='#5EBEFF', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(145deg, rgba(94, 190, 255, 0.38) 9%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 58%, rgba(255, 204, 53, 0.58) 100%);
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(145deg, rgba(94, 190, 255, 0.38) 9%, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 1) 58%, rgba(255, 204, 53, 0.58) 100%);
 }

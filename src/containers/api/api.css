@@ -1,0 +1,85 @@
+.api-container{
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+}
+
+.api-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--pink);
+    width:100%;
+    margin: 2rem 2.3rem;
+    border-radius: 20px;
+}
+.api-title{
+    font-size: 2vw;
+    margin:1rem;
+    background-color: rgb(255, 213, 220);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.api-cards{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+    width:100%;
+}
+
+.api-input_container{
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+    margin:1rem;
+    gap:10px;
+}
+.api-input_container button{
+    padding:10px;
+    font-size:15px;
+    background-color: black;
+    color:white;
+    border:none;
+}
+
+.api-explaination_container{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    gap:5px;
+}
+
+.api-explaination{
+    text-align: center;
+    background-color: rgb(255, 213, 220);
+    border-radius:20px;
+    padding:15px;
+}
+@media screen and (max-width:600px){
+    .api-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .api-title{
+        font-size:12px;
+        margin:10px;
+        padding:10px 15px;
+    }
+}

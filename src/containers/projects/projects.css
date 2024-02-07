@@ -1,0 +1,55 @@
+.projects-container{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+}
+
+.projects-content_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    margin: 2rem;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    width: 100%;
+    
+}
+.project-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ltgt-button,
+.arrow-button{
+    min-height: 30px;
+    min-width: 30px;
+    height: 4vw;
+    width: 6vw;
+    font-size: 25px;
+    margin:2rem 5vw;
+   
+    background-color: black;
+    border: none;
+    color: white;
+    cursor:pointer;
+
+}
+
+.arrow-button{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .ltgt-button{
+        display: none;
+    }
+    .arrow-button{
+        display: inline;
+        height:auto;
+        width:80px;
+    }
+    
+}
+

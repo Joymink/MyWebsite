@@ -1,0 +1,162 @@
+.personal-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.personal-content{
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    padding-left: 2rem;
+    border-radius: 20px;
+    background-color: var(--yellow);
+    width:100%;
+    
+}
+
+
+.tanzi-photo{
+    border-radius: 20px;
+    width:200px;
+}
+.personal-info{
+    display: flex;
+    width:fit-content;
+    justify-content: center;
+    margin:10px;
+}
+.personal-info_title{
+    
+    letter-spacing: 2px;
+    font-size:1.5vw;
+    position: absolute;
+    top:5%;
+    width:70vw;
+    max-width: 1280px;
+    text-align: center;
+   
+}
+.personal-info_container{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    margin:10px;
+    
+}
+.personal-info_content h4{
+    font-weight: bold;
+    font-size: 17px;
+   
+}
+
+.personal-info_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    gap:1rem;
+    
+}
+.personal-picture{
+    display: flex;
+    justify-content: center;
+    width:250px;
+}
+
+
+@media screen and (max-width: 800px){
+    
+    .personal-info_title{
+        /* border: 1px solid red; */
+        width:70vw;
+        margin-left: -10rem;
+        z-index: 3;
+        font-size: 18px;
+        
+    }
+    .personal-picture{
+        margin-top:100px;
+        z-index: 10;
+        
+    }
+    .personal-info_content{
+        margin-top:10vw;
+    }
+    
+}
+@media screen and (max-width: 600px){
+
+    .personal-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:0px;
+        
+    }
+    .personal-info_title{
+        position: static;
+        margin: 0;
+        font-size: 3vw;
+        width: fit-content;
+    }
+    .personal-info_content{
+        gap:10px;
+        font-size: 15px;
+    }
+    .personal-picture{
+        margin-top:0;
+    }
+    .personal-picture img{
+        width:300px;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .personal-picture img{
+        width:150px;
+    }
+}
+
+
+.scale-in-hor-left {
+	-webkit-animation: scale-in-hor-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-hor-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes scale-in-hor-left {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-hor-left {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }
+  
