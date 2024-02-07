@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
       </div>
       <div className="copy">
-          <p>&copy;2023 Website Created by: Jayden Evans. All rights reserved.</p>
+          <p>&copy;2024 Website Created by: Jayden Evans. All rights reserved.</p>
       </div>
     </div>
   )
