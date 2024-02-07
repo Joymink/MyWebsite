@@ -23,7 +23,7 @@ const Api = () => {
                   setData1(d);
                 }
                 else if (x===2){
-                  setData2(d);
+                    setData2(d);
                 }
                 else{
                   setData3(d);

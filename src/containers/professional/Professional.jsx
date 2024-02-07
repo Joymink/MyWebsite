@@ -1,7 +1,7 @@
 import '../professional/professional.css'
 import arrow from '../../assets/arrow.png'
 import React from 'react'
-import resume from '../../assets/Resume.pdf'
+import resume from '../../assets/Resume1.pdf'
 
 const Professional = () => {
   return (
