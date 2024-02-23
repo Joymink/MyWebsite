@@ -1,7 +1,7 @@
 import '../professional/professional.css'
 import arrow from '../../assets/arrow.png'
 import React from 'react'
-import resume from '../../assets/Resume1.pdf'
+import resume from '../../assets/Jayden_Evans_Resume_021524.pdf'
 
 const Professional = () => {
   return (
@@ -14,7 +14,7 @@ const Professional = () => {
             <div className='professional-experience'>
               <div className='professional-experience_title'>
                 <h2>Shoreline</h2>
-                <h3>Independent Contractor</h3>
+                <h3>Billing Specialist</h3>
               </div>
                <p>2023 - Present</p>
 
